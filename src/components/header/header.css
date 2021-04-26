@@ -1,0 +1,84 @@
+@import '../../base.css';
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3rem;
+
+	background-color: var(--black-primary);
+	height: 10vh;
+	width: 100%;
+
+}
+
+.header .header__menu{
+	display: none;
+	color: #ccc;
+	
+}
+
+.header .header__logo{
+
+	width: 70px;
+	height: 50px;
+	object-fit: contain;
+	display: block;
+}
+
+.header form{
+	display: flex;
+	flex:0.4;
+	padding: 0.1rem;
+	margin: 0.1rem;
+	border:1.2px solid;
+	background-color: var(--secondary-black);
+}
+.header form button{
+	padding: 0 1.25rem;
+	color: var(--text-color);
+	background: transparent;
+	border: none;
+	border-left: 1px solid;
+}
+
+.header form input{
+	background-color: transparent;
+	width: 100%;
+	border: none;
+	padding: 0.3rem;
+	color: var(--text-color);
+}
+
+.header .header__icons{
+	flex: 0.15;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: var(--text-color);
+}
+
+.header .header__icons img{
+	border-radius: 50%;
+	width: 40px;
+	object-fit: contain;
+	margin-left: 5px;
+}
+
+@media (max-width:520px){ 
+	.header{
+		padding:1rem;
+	}
+	.header form{
+		flex: 1;
+	}
+
+	.header .header__menu{
+		display: block;
+	}
+
+}
+
+/* fix logo paddings  margins*/
+/* fix hamburger */
+/* fix bg color of main screen */

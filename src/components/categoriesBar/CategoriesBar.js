@@ -1,5 +1,5 @@
 import React from 'react'
-import './categories.css'
+import './categoriesBar.css'
 const CategoriesBar = () => {
 	return (
 		<div>
