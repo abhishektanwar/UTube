@@ -19,8 +19,7 @@
 	margin: 4px;
 	cursor: pointer;
 }
-
-.sidebar span{
+.span{
 	margin-left: 10px;
 	font-size: 14px;
 	font-weight: 500;
@@ -61,3 +60,5 @@
 		display: none;
 	}
 }
+
+/* fix sidebar toggle  */
