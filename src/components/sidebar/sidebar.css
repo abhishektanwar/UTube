@@ -1,0 +1,63 @@
+@import '../../base.css';
+
+.sidebar{
+	background-color: var(--black-secondary);
+	color: white;
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+	height: 90vh;
+	position: sticky;
+	padding-top: 10px;
+}
+
+.sidebar li{
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	padding: 3px 10px;
+	margin: 4px;
+	cursor: pointer;
+}
+
+.sidebar span{
+	margin-left: 10px;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 0.4px;
+}
+
+.sidebar li:hover{
+	background-color:var(--border-color) ;
+}
+
+.sidebar hr{
+	background-color:var(--border-color) ;
+}
+.open{
+	display: block;
+	
+}
+
+@media (max-width:1224px) {
+	.sidebar{
+		width: 90px;
+	}
+
+	.sidebar li{
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.sidebar span{
+		align-items: center;
+		margin: 2px 1px;
+	}
+
+}
+
+@media (max-width:520px) {
+	.sidebar{
+		display: none;
+	}
+}

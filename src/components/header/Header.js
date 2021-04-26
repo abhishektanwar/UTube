@@ -4,10 +4,12 @@ import { FaBars } from "react-icons/fa"
 import { AiOutlineSearch } from 'react-icons/ai'
 import { MdNotifications, MdApps } from 'react-icons/md'
 
-const Header = () => {
+const Header = ({handleToggleSidebar}) => {
 	return (
 		<div className=" header border border-dark">
-			<FaBars className="header__menu"/>
+			<FaBars className="header__menu"
+				onClick={() => handleToggleSidebar()}
+			/>
 			<img className="header__logo" src="https://upload.wikimedia.org/wikipedia/commons/1/1f/YouTube_light_logo_%282017%29.svg" />
 			<form>
 				<input type="text" placeholder="Search" />
