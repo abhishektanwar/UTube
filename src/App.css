@@ -1,5 +1,12 @@
+@import './base.css';
+
 .app__container{
   display: flex;
-  height: 90vh;
+  margin-top: 10vh;
+  background-color:var(--black-secondary)!important ;
+
 }
 
+.app__main{
+  background-color:var(--black-secondary)!important ;
+}

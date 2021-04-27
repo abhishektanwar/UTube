@@ -1,0 +1,37 @@
+@import '../../base.css';
+
+.login{
+	background-color:var(--black-primary);
+	height: 100vh;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	/* place-items: center; */
+}
+
+.login img{
+	width:130px;
+	height: 130px;
+	object-fit: contain;
+}
+
+.login .login__container{
+	background-color:var(--black-secondary) ;
+	padding: 2rem;
+	margin:0 1rem;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.login .login__container button{
+	padding:0.5rem;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 1rem;
+
+}
+.login .login__container button:focus{
+	outline: none;
+}

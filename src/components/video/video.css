@@ -1,0 +1,69 @@
+@import '../../base.css';
+
+.video{
+	margin-bottom:1rem;
+	padding: 0.7rem;
+	font-weight: 500;
+	font-size: 0.9rem;
+
+	cursor: pointer;
+	/* margin-top: 30px; */
+}
+
+.video .video__top{
+	margin-bottom: 0.5rem;
+	position: relative;
+}
+
+.video .video__top img{
+	width: 100%;
+}
+
+
+/* setting video duration over thumbnai on right side */
+.video .video__top span{
+	position: absolute;
+	bottom: 0.3rem;
+	right: 0.3rem;
+	padding:0.2rem;
+	background: #0000009a;
+	border-radius: 3px;
+	color: white;
+}
+
+/* getting title in one line only and the getting .... */
+.video .video__title{
+	margin-bottom: 0.1rem;
+	color: #fff;
+	overflow:hidden;
+	display: -webkit-box;
+	-webkit-line-clamp:1;
+	-webkit-box-orient:vertical;
+}
+
+.video .video__details{
+	display: flex;
+	align-items:center;
+	color: white;
+}
+
+.video .video__channel{
+	display: flex;
+	align-items:center;
+	color: white;
+	margin:0.5rem 0;
+}
+
+.video .video__channel img{
+	width: 36px;
+	border-radius: 50%;
+	margin-right: 0.5rem;
+	cursor: pointer;
+}
+.video .video__channel p{
+	margin-bottom: 0;
+}
+
+::-webkit-scrollbar{
+	width: 0;
+}

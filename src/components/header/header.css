@@ -4,11 +4,14 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 3rem;
+	padding:1rem 3rem;
 
 	background-color: var(--black-primary);
 	height: 10vh;
 	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 999;
 
 }
 
