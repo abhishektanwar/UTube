@@ -1,0 +1,32 @@
+@import '../../base.css';
+
+.videoHorizontal{
+	border-bottom: 0.3px solid gray;
+	cursor: pointer;
+}
+
+.videoHorizontal__left{
+	position: relative;
+	text-align: center;
+}
+
+.videoHorizontal__thumbnail_wrapper{
+	width: 100%;
+}
+
+.video__top__duration{
+	position: absolute;
+	bottom: 3px;
+	right: 3px;
+	padding: 2px;
+	border-radius: 3px;
+}
+
+.videoHorizontal__details{
+	font-size: 0.9rem;
+}
+
+.videoHorizontal__title{
+	font-size: 1rem;
+	color: white;
+}

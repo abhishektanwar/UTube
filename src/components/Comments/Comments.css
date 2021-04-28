@@ -1,0 +1,25 @@
+@import '../../base.css';
+
+
+.comment__form img{
+	width: 50px;
+	height: 50px;
+}
+
+input{
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid grey;
+}
+
+button{
+	background: gray;
+}
+
+.comment_form{
+	display: flex;
+}
+
+form{
+	display: flex;
+}
