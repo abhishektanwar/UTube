@@ -39,7 +39,7 @@ const WatchScreen = () => {
 						videos?.filter(video => video.snippet)
 							.map(video => (
 								<VideoHorizontal video={video} key={video.id.videoId} />
-					))}
+					)) }
 			</Col>
 		</Row>
 	)
